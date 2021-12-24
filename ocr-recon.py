@@ -20,6 +20,15 @@ if len(sys.argv) < 3:
     sys.exit()
 
 patternarg=sys.argv[2]
+banner="""
+  ______     ______ .______         .______       _______   ______   ______   .__   __. 
+ /  __  \   /      ||   _  \        |   _  \     |   ____| /      | /  __  \  |  \ |  | 
+|  |  |  | |  ,----'|  |_)  |       |  |_)  |    |  |__   |  ,----'|  |  |  | |   \|  | 
+|  |  |  | |  |     |      /        |      /     |   __|  |  |     |  |  |  | |  . `  | 
+|  `--'  | |  `----.|  |\  \----.   |  |\  \----.|  |____ |  `----.|  `--'  | |  |\   | 
+ \______/   \______|| _| `._____|   | _| `._____||_______| \______| \______/  |__| \__| 
+                                                                                        
+                                by @stark0de1                                                        """
 
 #Idea: adaptar esto para que busque regex en vez de strings
 
@@ -58,6 +67,8 @@ def send_requests(_Url_):
     
 
 def main():
+    
+    print(Fore.BLUE+banner+Fore.WHITE)
     
     listwithURLs=open(sys.argv[1], "r").readlines()
 
