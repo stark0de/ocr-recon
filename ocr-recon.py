@@ -28,7 +28,9 @@ banner="""
 |  `--'  | |  `----.|  |\  \----.   |  |\  \----.|  |____ |  `----.|  `--'  | |  |\   | 
  \______/   \______|| _| `._____|   | _| `._____||_______| \______| \______/  |__| \__| 
                                                                                         
-                                by @stark0de1                                                        """
+                                by @stark0de1
+                                
+                                """
 
 #Idea: adaptar esto para que busque regex en vez de strings
 
