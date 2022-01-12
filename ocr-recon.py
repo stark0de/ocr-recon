@@ -1,8 +1,6 @@
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 import selenium
-import time
-import requests
 import concurrent.futures
 from colorama import Fore
 import sys
